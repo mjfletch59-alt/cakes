@@ -1,0 +1,160 @@
+
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+        color: #E94D40;
+    }
+.navbar ul{
+    list-style-type: none;
+    }
+ul {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(236, 135, 209);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    }
+.navbar a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+   
+   }
+     .navbar a:hover{
+        background-color: aliceblue;
+    }
+    .navbar li{
+        float:right;
+    }
+
+body{
+    min-height: 100vh;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    list-style-type: none;
+    background-color:rgb(236, 135, 209);
+    color: white;
+    padding: 0px;
+    margin-top: 200px;
+    overflow: hidden;
+  }
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0C243C;
+}
+h2{
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0C243C;   
+}
+.info-block {
+    background-color:rgb(236, 135, 209); 
+    border: 2px solid #333;    
+    border-radius: 8px;        
+    padding: 20px;             
+    max-width: 800px;   
+    margin: 20px auto;         
+    font-family: Arial, sans-serif;
+    }
+    h3{
+        text-align: center;
+        margin: auto;
+    }
+
+.image-grid{
+    --gap: 10px;
+    --num-cols: 3;
+    --row-height: 250px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+
+}   
+.image-grid >img{
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+   
+
+}    
+.grid-item img{
+    padding: 0px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+   
+}
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align:center;
+    width: 300px;
+    background-color: rgb(236, 135, 209);
+}
+
+table{
+     margin-left: auto;
+     margin-right: auto;
+    max-width: 1200px;   
+    border:2px solid;
+        th{
+          background-color:black;
+          font-family: Arial, Helvetica, sans-serif;
+          color:white;
+          padding: 10px;
+          font-size: 18px;
+        }
+        td{
+          padding: 10px;
+          text-align: justify;
+          }
+          tr{
+background-color: lightgray;
+          }
+      }
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+    background: lightgray;
+    padding: 20px;
+}
+input, 
+textarea,
+select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+button{
+    width: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(236, 135, 209);
+}
